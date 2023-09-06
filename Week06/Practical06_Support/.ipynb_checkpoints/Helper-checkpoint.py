@@ -1,6 +1,6 @@
 import numpy as np
 
-def get_distance_robot_to_goal(robot_state=goal_position, goal=np.zeros(3)):
+def get_distance_robot_to_goal(robot_state=np.zeros(3), goal=np.zeros(3)):
 	"""
 	Compute Euclidean distance between the robot and the goal location
 	:param robot_state: 3D vector (x, y, theta) representing the current state of the robot
